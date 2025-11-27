@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       # Teknik üst sınırı zorluyoruz. 
-      max-parallel: 256
+      max-parallel: 180
       matrix:
         # Maksimum matris öğesi sayısı: 256'ya kadar uzatıldı! 
         # (instance: [1, 2, 3, ..., 180])
